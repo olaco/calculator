@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <title>Calculator</title>
+
+    
+</head>
+<body> 
+   
+      
+
+    <div id="wrapper" class="container my-5  card  shadow-lg">
+
+       <div class="row">
+           <div class="col-md-12 jumbotron border ">
+                  
+                <p id="calculator-screen" class="border border-white rounded" > </p>
+                
+                
+
+           </div>
+           <div class="col-md-3">
+                     
+                <div class="card-body border d-block bg-primary text-center">
+                                
+                        <input type="button" id="btnOne" class="btn-primary text-white btn-lg" onclick="btnOne()" value="1">
+                      </div>
+           </div>
+
+           <div class="col-md-3 ">
+                <div class="card-body border bg-primary text-center">
+                                
+                        <input type="button" id="btnTwo" class="btn-primary btn-lg text-white" onclick="btnTwo()" value="2">
+                      </div>
+            </div>
+
+
+            <div class="col-md-3">
+
+                    <div class="card-body border bg-primary text-center">
+                                
+                        <input type="button" id="btnThree" class="btn-primary btn-lg text-white" onclick="btnThree()" value="3">
+
+                          </div>
+                </div>
+
+
+                <div class="col-md-3">
+                        <div class="card-body border bg-primary text-center">
+                                
+                                <input type="button" id="btnFour" class="btn-primary btn-lg text-white" onclick="btnFour()" value="4">
+                              </div>
+                    </div>
+
+       </div>
+            
+
+       <!-- row 2 -->
+
+           <div class="row">
+
+
+                <div class="col-md-3">
+                        <div class="card-body border bg-primary text-center">
+                                
+                        <input type="button" id="btnFive" class="btn-primary btn-lg text-white" onclick="btnFive()" value="5">
+                      </div>
+                </div>
+
+                <div class="col-md-3">
+
+                        <div class="card-body border bg-primary text-center">
+                                
+                                <input type="button" id="btnSix" class="btn-primary btn-lg text-white" onclick="btnSix()" value="6">
+                              </div>
+                </div>
+
+                <div class="col-md-3">
+                        <div class="card-body border bg-primary text-center">
+                                
+                                <input type="button" id="btnSeven" class="btn-primary btn-lg text-white" onclick="btnSeven()" value="7">
+                              </div>
+                </div>
+
+                <div class="col-md-3">
+
+                        <div class="card-body border bg-primary text-center">
+                                
+                                <input type="button" id="btnEight" class="btn-primary btn-lg text-white" onclick="btnEight()" value="8">
+                              </div>
+
+                </div>
+           </div>
+
+           <!-- row 3 -->
+
+           <div class="row">
+
+
+                <div class="col-md-3">
+                        <div class="card-body border bg-primary text-center">
+                                
+                                <input type="button" id="btnNine" class="btn-primary btn-lg text-white" onclick="btnNine()" value="9">
+                              </div>
+                </div>
+
+                <div class="col-md-3">
+
+                        <div class="card-body border bg-primary text-center">
+                                
+                                <input type="button" id="btnZero" class="btn-primary btn-lg text-white" onclick="btnZero()" value="0">
+                              </div>
+                </div>
+
+                <div class="col-md-3">
+                        <div class="card-body border bg-primary text-center">
+                               
+                                 <input type="button" id="btnDivide" class="btn-primary btn-lg text-white" onclick="btnDivide()" value="&divide;">
+                              
+                                
+                              </div>
+                </div>
+
+                <div class="col-md-3">
+                        <div class="card-body border bg-primary text-center">
+                               
+                                <input type="button" id="btnCE" class="btn-primary btn-lg text-white" onclick="btnCE()" value="CE">
+                              </div>
+
+                </div>
+                      
+                <div class="col-md-3">
+                        <div class="card-body border bg-primary text-center">
+                               
+                               
+                               <input type="button" id="btnTimes" class="border btn-primary btn-lg text-white" value="*" onclick="btnTimes()"> 
+                                
+                              </div>
+
+                </div>
+
+                <div class="col-md-3">
+                        <div class="card-body border bg-primary text-center">
+                               
+                                <input type="button" id="btnPlus" class="border btn-primary btn-lg text-white" value="+" onclick="btnPlus()"> 
+                              </div>
+
+                </div>
+
+
+                <div class="col-md-3">
+                        <div class="card-body border bg-primary text-center">
+                               
+                                <input type="button" id="btnMinus" class="border btn-primary btn-lg text-white" value="-" onclick="btnMinus()"> 
+
+                              </div>
+
+                </div>
+
+
+                <div class="col-md-3">
+                        <div class="card-body border bg-primary text-center">
+                               
+                                <input id="btnEqual" type="button" value="&equals;" class="btn btn-primary btn-lg" onclick="showdisplay()">
+                              </div>
+
+                </div>
+
+                <!-- row End   -->
+           </div>
+
+
+
+    </div>
+    
+    <script src="/js/jquery-3.5.0.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
